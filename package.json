@@ -1,0 +1,30 @@
+{
+	"name": "arraybuffer.prototype.detached",
+	"version": "0.0.0",
+	"description": "ES Proposal spec-compliant shim for ArrayBuffer.prototype.detached",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/es-shims/ArrayBuffer.prototype.detached.git"
+	},
+	"keywords": [
+		"ecmascript",
+		"javascript",
+		"polyfill",
+		"shim",
+		"ArrayBuffer",
+		"detached",
+		"array",
+		"buffer",
+		"es-shim API"
+	],
+	"author": "Jordan Harband <ljharb@gmail.com>",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/es-shims/ArrayBuffer.prototype.detached/issues"
+	},
+	"homepage": "https://github.com/es-shims/ArrayBuffer.prototype.detached#readme"
+}
