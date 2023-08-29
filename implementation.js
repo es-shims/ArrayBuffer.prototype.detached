@@ -1,6 +1,6 @@
 'use strict';
 
-var IsDetachedBuffer = require('es-abstract/2022/IsDetachedBuffer');
+var IsDetachedBuffer = require('es-abstract/2023/IsDetachedBuffer');
 
 var functionsHaveConfigurableNames = require('functions-have-names').functionsHaveConfigurableNames();
 var supportsDescriptors = require('define-properties').supportsDescriptors;
