@@ -38,11 +38,11 @@
 	],
 	"dependencies": {
 		"call-bind": "^1.0.2",
-		"define-properties": "^1.2.0",
+		"define-properties": "^1.2.1",
 		"es-abstract": "^1.22.1",
 		"gopd": "^1.0.1",
 		"is-shared-array-buffer": "^1.0.2",
-		"set-function-name": "^2.0.0"
+		"set-function-name": "^2.0.1"
 	},
 	"devDependencies": {
 		"@es-shims/api": "^2.4.2",
