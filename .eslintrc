@@ -11,13 +11,13 @@
 				"IsDetachedBuffer",
 			],
 		}],
+		"no-invalid-this": "off",
 	},
 
 	"overrides": [
 		{
 			"files": "test/**",
 			"rules": {
-				// "max-lines-per-function": 0,
 			},
 		},
 	],
