@@ -5,6 +5,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.0.2](https://github.com/es-shims/ArrayBuffer.prototype.detached/compare/v1.0.1...v1.0.2) - 2023-09-13
+
+### Commits
+
+- [Refactor] use `set-function-name` [`f9fb3ac`](https://github.com/es-shims/ArrayBuffer.prototype.detached/commit/f9fb3ac418d8274cd62ce89d2a0297c4f33fe49f)
+- [Deps] update `define-properties`, `set-function-name` [`7ba68a1`](https://github.com/es-shims/ArrayBuffer.prototype.detached/commit/7ba68a10e7af44177c5b2c51bd91867fc4a5eeda)
+
 ## [v1.0.1](https://github.com/es-shims/ArrayBuffer.prototype.detached/compare/v1.0.0...v1.0.1) - 2023-08-29
 
 ### Commits

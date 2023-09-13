@@ -1,6 +1,6 @@
 {
 	"name": "arraybuffer.prototype.detached",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "ES Proposal spec-compliant shim for ArrayBuffer.prototype.detached",
 	"author": "Jordan Harband <ljharb@gmail.com>",
 	"funding": {
