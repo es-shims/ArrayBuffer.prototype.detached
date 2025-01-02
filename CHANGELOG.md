@@ -5,6 +5,20 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.0.3](https://github.com/es-shims/ArrayBuffer.prototype.detached/compare/v1.0.2...v1.0.3) - 2025-01-02
+
+### Commits
+
+- [actions] split out node 10-20, and 20+ [`1225c50`](https://github.com/es-shims/ArrayBuffer.prototype.detached/commit/1225c50d80363cb667582019f76a07cca2f36859)
+- [Refactor] use `es-errors`, `get-proto`, `has-property-descriptors` directly [`a9a3954`](https://github.com/es-shims/ArrayBuffer.prototype.detached/commit/a9a395475de9e63ff23c389f2fd1555db01e47e0)
+- [Deps] update `call-bind`, `es-abstract`, `gopd`, `is-shared-array-buffer` [`efd151b`](https://github.com/es-shims/ArrayBuffer.prototype.detached/commit/efd151bb5db927cbdd2bf19bed72cc66c937db57)
+- [Dev Deps] update `@es-shims/api`, `auto-changelog`, `es-value-fixtures`, `object-inspect`, `tape` [`6a6b7b5`](https://github.com/es-shims/ArrayBuffer.prototype.detached/commit/6a6b7b51c5c13f414f8cad099b27d50f2ff4e638)
+- [Dev Deps] update `@es-shims/api`, `@ljharb/eslint-config`, `npmignore`, `object-inspect`, `tape` [`ff6a6b4`](https://github.com/es-shims/ArrayBuffer.prototype.detached/commit/ff6a6b4f09726dddcbcce97986ecf38319844553)
+- [Deps] update `call-bind`, `es-abstract`, `is-shared-array-buffer`, `set-function-name` [`692dede`](https://github.com/es-shims/ArrayBuffer.prototype.detached/commit/692dede218bea5d2587e486904172e446df5edd7)
+- [Dev Deps] update `aud`, `object-inspect`, `tape` [`865747a`](https://github.com/es-shims/ArrayBuffer.prototype.detached/commit/865747aa29a450a77795ccde3d82af67f0da9f34)
+- [Tests] replace `aud` with `npm audit` [`2dca0b1`](https://github.com/es-shims/ArrayBuffer.prototype.detached/commit/2dca0b1d08ba33fbfedd5486ad809ced785f773c)
+- [Dev Deps] add missing peer dep [`7c5063b`](https://github.com/es-shims/ArrayBuffer.prototype.detached/commit/7c5063b4049989c57586d7f40570fdaaaced771c)
+
 ## [v1.0.2](https://github.com/es-shims/ArrayBuffer.prototype.detached/compare/v1.0.1...v1.0.2) - 2023-09-13
 
 ### Commits
