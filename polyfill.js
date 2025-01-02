@@ -2,7 +2,7 @@
 
 var implementation = require('./implementation');
 
-var supportsDescriptors = require('define-properties').supportsDescriptors;
+var supportsDescriptors = require('has-property-descriptors')();
 var gOPD = require('gopd');
 
 module.exports = function getPolyfill() {

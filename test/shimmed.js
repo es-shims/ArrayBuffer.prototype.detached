@@ -3,8 +3,8 @@
 require('../auto');
 
 var test = require('tape');
-var defineProperties = require('define-properties');
 var callBind = require('call-bind');
+var supportsDescriptors = require('has-property-descriptors')();
 
 var isEnumerable = Object.prototype.propertyIsEnumerable;
 var functionsHaveNames = require('functions-have-names')();
@@ -24,7 +24,7 @@ test('shimmed', function (t) {
 			s2t.end();
 		});
 
-		st.test('enumerability', { skip: !defineProperties.supportsDescriptors }, function (et) {
+		st.test('enumerability', { skip: !supportsDescriptors }, function (et) {
 			et.equal(false, isEnumerable.call(ArrayBuffer.prototype, 'detached'), 'ArrayBuffer#detached is not enumerable');
 			et.end();
 		});

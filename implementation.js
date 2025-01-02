@@ -5,7 +5,7 @@ var IsDetachedBuffer = require('es-abstract/2024/IsDetachedBuffer');
 var setFunctionName = require('set-function-name');
 var isSharedArrayBuffer = require('is-shared-array-buffer');
 
-var $TypeError = TypeError;
+var $TypeError = require('es-errors/type');
 
 module.exports = setFunctionName(function detached() {
 	var O = this; // step 1

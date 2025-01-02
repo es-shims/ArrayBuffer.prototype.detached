@@ -1,13 +1,13 @@
 'use strict';
 
-var supportsDescriptors = require('define-properties').supportsDescriptors;
+var supportsDescriptors = require('has-property-descriptors')();
 var gOPD = require('gopd');
 
 var getPolyfill = require('./polyfill');
 var defineProperty = Object.defineProperty;
-var $TypeError = TypeError;
-var $SyntaxError = SyntaxError;
-var getProto = Object.getPrototypeOf;
+var $TypeError = require('es-errors/type');
+var $SyntaxError = require('es-errors/syntax');
+var getProto = require('get-proto');
 
 module.exports = function shimDetached() {
 	if (!supportsDescriptors || !getProto) {
