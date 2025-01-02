@@ -37,11 +37,11 @@
 		"es-shim API"
 	],
 	"dependencies": {
-		"call-bind": "^1.0.7",
+		"call-bind": "^1.0.8",
 		"define-properties": "^1.2.1",
-		"es-abstract": "^1.23.3",
-		"gopd": "^1.0.1",
-		"is-shared-array-buffer": "^1.0.3",
+		"es-abstract": "^1.23.9",
+		"gopd": "^1.2.0",
+		"is-shared-array-buffer": "^1.0.4",
 		"set-function-name": "^2.0.2"
 	},
 	"devDependencies": {
